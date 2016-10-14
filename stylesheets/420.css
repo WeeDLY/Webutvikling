@@ -1,54 +1,106 @@
 
 body {
-
+	
 	height: 100%;
+	width: 100%;
 	margin: auto;
 	background: linear-gradient(#c4d4d4, #567676);
 	background-repeat: no-repeat;
 	position: absolute;
 	font-size: 16px;
+	
+		
+}
 
-
+header {
+	
+	float: left;
+	
+	
 }
 
 nav {
-
+	
+	position: absolute;
 	width: 100%;
+	margin-top: 0.9em;
 	margin-bottom: 0.9em;
 	background: #6D8BAD;
-
-
+	
+	
 }
 
 nav ul {
-
-    margin: 0 auto;
-    padding: 0.6em;
-    list-style: none;
-}
+	
+    margin: 0 auto;  
+    padding: 0.6em;  
+    list-style: none;  
+} 
 
 nav ul li {
+	
+	display: inline-block; 
+	
+}
 
-	display: inline-block;
-
+.menu {
+	
+	display: none;
+	
 }
 
 main {
-
+	
 	clear: both;
-
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	width: 85%;
+	float: left;
+	
 }
 
 main section {
-	margin: 0.3em;
-	float: left;
-	background-color: #8aaaaa;
 
+	background-color: #8aaaaa;
+	
 }
 
 main section article {
-
+	
 	background-color: #f2f2f2;
 	padding: 0.3em;
+	height: 3em;
+	margin-bottom: 0.5em;
+	
+}
 
+# right {
+	
+	display: none;
+	
+}
+
+# left {
+	
+	display: none;
+	
+}
+
+.adPhone {
+	
+	height: 1.2em;
+	background-color: red;
+	margin-bottom: 0.5em;
+	
+}
+
+footer {
+	
+	float: left; 
+	position: relative;
+	clear: both;
+	background-color: #6D8BAD;
+	
 }
