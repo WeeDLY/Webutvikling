@@ -2,8 +2,7 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: linear-gradient(#c4d4d4, #567676);
-	background-repeat: no-repeat;
+	background-color: #8aaaaa;
 	position: absolute;
 	font-size: 48px;
 	font-weight: bold;
