@@ -1,4 +1,5 @@
 
+
 body {
 	
 	height: 100%;
@@ -8,14 +9,13 @@ body {
 	background-repeat: no-repeat;
 	position: absolute;
 	font-size: 16px;
-	
+	height: 100%;
 		
 }
 
 header {
 	
 	float: left;
-	
 	
 }
 
@@ -27,14 +27,14 @@ nav {
 	margin-bottom: 0.9em;
 	background: #6D8BAD;
 	
-	
 }
 
 nav ul {
 	
     margin: 0 auto;  
-    padding: 0.6em;  
-    list-style: none;  
+    padding: 0.6.25em;  
+    list-style: none;
+	
 } 
 
 nav ul li {
@@ -57,6 +57,7 @@ main {
 	top: 60%;
 	transform: translate(-50%, -50%);
 	width: 85%;
+	height: 85%;
 	float: left;
 	
 }
@@ -71,7 +72,7 @@ main section article {
 	
 	background-color: #f2f2f2;
 	padding: 0.3em;
-	height: 3em;
+	height: 6.25em;
 	margin-bottom: 0.5em;
 	
 }
@@ -90,17 +91,19 @@ main section article {
 
 .adPhone {
 	
-	height: 1.2em;
+	height: 6.25em;
 	background-color: red;
 	margin-bottom: 0.5em;
 	
 }
 
 footer {
-	
-	float: left; 
-	position: relative;
+
+	position: absolute;
 	clear: both;
 	background-color: #6D8BAD;
+	left: 50%;
+	top: 95%;
+	transform: translate(-50%, -50%);
 	
 }
