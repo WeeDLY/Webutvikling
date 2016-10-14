@@ -1,3 +1,5 @@
+
+
 body {
 	
 	height: 100%;
@@ -53,7 +55,7 @@ main {
 	clear: both;
 	position: absolute;
 	left: 50%;
-	top: 60%;
+	top: 65%;
 	transform: translate(-50%, -50%);
 	width: 85%;
 	height: 85%;
@@ -76,13 +78,13 @@ main section article {
 	
 }
 
-# right {
+#right {
 	
 	display: none;
 	
 }
 
-# left {
+#left {
 	
 	display: none;
 	
@@ -99,7 +101,7 @@ main section article {
 footer {
 
 	height: 15%;
-	width: 100%;
+	width: 150%;
 	position: absolute;
 	clear: both;
 	background-color: #6D8BAD;
