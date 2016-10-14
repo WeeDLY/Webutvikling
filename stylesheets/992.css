@@ -26,11 +26,12 @@ nav {
 nav ul {
   margin: 0 auto;
   padding: 0.6.25em;
-  list-style: none;
+	list-style: none;
 }
 
 nav ul li {
 	display: inline-block;
+	text-decoration: none;
 }
 
 .phoneMenu {
