@@ -1,58 +1,54 @@
 
 body {
-	
+
 	height: 100%;
 	margin: auto;
 	background: linear-gradient(#c4d4d4, #567676);
 	background-repeat: no-repeat;
 	position: absolute;
 	font-size: 16px;
-	
-		
+
+
 }
 
 nav {
-	
+
 	width: 100%;
 	margin-bottom: 0.9em;
 	background: #6D8BAD;
-	
-	
+
+
 }
 
 nav ul {
-	
-    margin: 0 auto;  
-    padding: 0.6em;  
-    list-style: none;  
-} 
+
+    margin: 0 auto;
+    padding: 0.6em;
+    list-style: none;
+}
 
 nav ul li {
-	
-	display: inline-block; 
-	
+
+	display: inline-block;
+
 }
 
 main {
-	
+
 	clear: both;
-	
+
 }
 
 main section {
-	
 	margin: 0.3em;
 	float: left;
 	background-color: #8aaaaa;
-	
+
 }
 
 main section article {
-	
+
 	background-color: #f2f2f2;
 	padding: 0.3em;
-	
+
 }
-
-
-
