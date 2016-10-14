@@ -1,9 +1,81 @@
-html
-{
+body {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: linear-gradient(#c4d4d4, #567676);
+	background-repeat: no-repeat;
+	position: absolute;
+	font-size: 16px;
+	height: 100%;
+}
+
+header {
+	float: left;
+}
+
+nav {
+	position: absolute;
+	width: 100%;
+	margin-top: 0.9em;
+	margin-bottom: 0.9em;
+	background: #6D8BAD;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 0.6.25em;
+    list-style: none;
+
+  }
+nav ul li {
+	display: inline-block;
+}
+
+.menu {
+	display: none;
+}
+
+main {
+	clear: both;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	width: 85%;
+	height: 85%;
+	float: left;
+}
+
+main section {
   background-color: #8aaaaa;
 }
 
-section
-{
-  transform:translate { -50%; -50%; }
+main section article {
+  background-color: #f2f2f2;
+	padding: 0.3em;
+	height: 6.25em;
+	margin-bottom: 0.5em;
+}
+
+# right {
+	display: none;
+}
+
+# left {
+	display: none;
+}
+
+.adPhone {
+	height: 6.25em;
+	background-color: red;
+	margin-bottom: 0.5em;
+}
+
+footer {
+	position: absolute;
+	clear: both;
+	background-color: #6D8BAD;
+	left: 50%;
+	top: 95%;
+	transform: translate(-50%, -50%);
 }
