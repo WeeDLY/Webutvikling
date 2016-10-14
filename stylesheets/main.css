@@ -18,7 +18,7 @@ nav {
 	margin-bottom: 0.9em;
 	background: #6D8BAD;
   padding: 1em;
-
+	text-align: center;
 }
 
 nav ul {
@@ -28,6 +28,7 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
+	padding: 0% 1%;
 }
 
 nav ul li a{
@@ -44,7 +45,7 @@ main {
 	clear: both;
 	position: absolute;
 	left: 50%;
-	top: 60%;
+	top: 62%;
 	transform: translate(-50%, -50%);
 	width: 85%;
 	height: 85%;
