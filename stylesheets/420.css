@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-	position: fixed;
+	position: absolute;
 	height: 10%;
 	width: 100%;
 	margin-top: 0.9em;
@@ -37,10 +37,7 @@ nav ul li {
 
 main {
 	clear: both;
-	position: absolute;
-	left: 50%;
-	top: 65%;
-	transform: translate(-50%, -50%);
+	margin: auto;
 	width: 85%;
 	height: 85%;
 	float: left;
@@ -48,6 +45,7 @@ main {
 
 main section {
 	background-color: #8aaaaa;
+	margin-top: 0.9em;
 }
 
 main section article {
@@ -74,7 +72,7 @@ main section article {
 footer {
 	height: 15%;
 	width: 100%;
-	position: absolute;
+	position: relative;
 	clear: both;
 	background-color: #6D8BAD;
 	left: 50%;
