@@ -5,8 +5,7 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	/*background: linear-gradient(#c4d4d4, #567676);*/
-	background-color:red;
+	background: linear-gradient(#c4d4d4, #567676);
 	background-repeat: no-repeat;
 	position: absolute;
 	font-size: 48px;
@@ -102,7 +101,7 @@ main section article {
 footer {
 
 	height: 15%;
-	width: 150%;
+	width: 100%;
 	position: absolute;
 	clear: both;
 	background-color: #6D8BAD;
