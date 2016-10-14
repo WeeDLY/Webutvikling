@@ -2,11 +2,9 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: linear-gradient(#c4d4d4, #567676);
-	background-repeat: no-repeat;
+	background-color: #c4d4d4;
 	position: absolute;
 	font-size: 16px;
-	height: 100%;
 }
 
 header {
@@ -19,20 +17,22 @@ nav {
 	margin-top: 0.9em;
 	margin-bottom: 0.9em;
 	background: #6D8BAD;
+  padding: 1em;
+
 }
 
 nav ul {
-    margin: 0 auto;
-    padding: 0.6.25em;
-    list-style: none;
+  margin: 0 auto;
+  padding: 0.6.25em;
+  list-style: none;
+}
 
-  }
 nav ul li {
 	display: inline-block;
 }
 
-.menu {
-	display: none;
+.phoneMenu {
+  display: none;
 }
 
 main {
@@ -47,22 +47,22 @@ main {
 }
 
 main section {
-  background-color: #8aaaaa;
+	background-color: #8aaaaa;
 }
 
 main section article {
-  background-color: #f2f2f2;
+	background-color: #f2f2f2;
 	padding: 0.3em;
 	height: 6.25em;
 	margin-bottom: 0.5em;
 }
 
 #right {
-	display: none;
+
 }
 
 #left {
-	display: none;
+
 }
 
 .adPhone {
