@@ -14,9 +14,8 @@ header {
 
 nav {
 	position: absolute;
-	width: 100%;
-	margin-top: 0.9em;
-	margin-bottom: 0.9em;
+	width: 93%;
+	margin: 0.9em;
 	background: #6D8BAD;
   padding: 1em;
 	text-align: center;
