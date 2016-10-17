@@ -1,0 +1,11 @@
+html {
+  background-color: #ffffff;
+}
+
+#adLeft, #adRight {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,8 +1,8 @@
 body {
 	height: 100%;
 	width: 100%;
-	margin: auto;
 	background-color: #c4d4d4;
+	margin: auto;
 	position: absolute;
 	font-size: 16px;
 }
@@ -73,24 +73,19 @@ main section article {
   display: none;
 }
 
-#adLeft {
-	position: absolute;;
+#adLeft, #adRight {
+	position: absolute;
 	float:left;
 	background-color: red;
 	width: 5%;
 	padding: 0.5em;
 	height: 90%;
 }
-
 #adRight {
 	position: relative;
 	float: right;
-	background-color: red;
-	width: 5%;
 	top: -90%;
-	height: 90%;
 }
-
 
 footer {
 	position: relative;
