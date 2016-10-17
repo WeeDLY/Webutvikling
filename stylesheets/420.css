@@ -3,7 +3,6 @@ body {
 	width: 100%;
 	margin: auto;
 	background-color: #8aaaaa;
-	position: absolute;
 	font-size: 48px;
 	font-weight: bold;
 }
@@ -13,7 +12,6 @@ header {
 }
 
 nav {
-	position: absolute;
 	height: 10%;
 	width: 100%;
 	margin-top: 0.9em;
@@ -22,7 +20,7 @@ nav {
 }
 
 nav ul {
-    margin: 0 auto;
+    margin: auto;
     padding: 0.6.25em;
     list-style: none;
 }
@@ -36,7 +34,6 @@ nav ul li {
 }
 
 main {
-	clear: both;
 	margin: auto;
 	width: 85%;
 	height: 85%;
@@ -45,7 +42,7 @@ main {
 
 main section {
 	background-color: #8aaaaa;
-	margin-top: 0.9em;
+	margin-top: 2em;
 }
 
 main section article {
@@ -72,10 +69,7 @@ main section article {
 footer {
 	height: 15%;
 	width: 100%;
-	position: relative;
-	clear: both;
 	background-color: #6D8BAD;
-	left: 50%;
-	top: 95%;
-	transform: translate(-50%, -50%);
+	float: left;
+	
 }
