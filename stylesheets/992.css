@@ -26,6 +26,7 @@ nav ul {
 	margin: auto;
   padding: 0.625em;
 	list-style: none;
+	margin-left: -50px;
 }
 
 nav ul li {
