@@ -62,8 +62,12 @@ main section {
 main section article {
 	background-color: #f2f2f2;
 	padding: 0.3em;
-	height: 8em;
+	height: 6em;
 	margin-bottom: 0.5em;
+}
+
+aside {
+	display: none;
 }
 
 # right {
@@ -81,10 +85,9 @@ main section article {
 }
 
 footer {
-	position: absolute;
-	clear: both;
+	position: relative;
 	background-color: #6D8BAD;
-	left: 50%;
 	top: 95%;
-	transform: translate(-50%, -50%);
+	width: 50%;
+	margin: auto;
 }
