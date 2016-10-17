@@ -66,16 +66,12 @@ main section article {
 	margin-bottom: 0.5em;
 }
 
-aside {
+#adRight {
 	display: none;
 }
 
-# right {
-
-}
-
-# left {
-
+#adLeft {
+	display: none;
 }
 
 .adPhone {
