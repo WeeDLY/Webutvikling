@@ -79,6 +79,7 @@ main section article {
 	background-color: red;
 	width: 5%;
 	padding: 0.5em;
+	height: 90%;
 }
 
 #adRight {
@@ -87,6 +88,7 @@ main section article {
 	background-color: red;
 	width: 5%;
 	top: -90%;
+	height: 90%;
 }
 
 
