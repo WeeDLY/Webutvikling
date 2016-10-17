@@ -37,7 +37,7 @@ nav ul li {
 }
 
 main {
-	transform: translate(-50%, -50%);
+	margin: auto;
 	width: 85%;
 	height: 85%;
 	float: left;
@@ -53,27 +53,23 @@ main section article {
 	padding: 0.3em;
 	height: 6.25em;
 	margin-bottom: 0.5em;
-}
+}	
 
-#right {
-	display: none;
-}
-
-#left {
+#adRight {
 	display: none;
 }
 
 .adPhone {
 	height: 6.25em;
+	width: 100%;
 	background-color: red;
 	margin-bottom: 0.5em;
 }
 
 footer {
-	top: 95%;
-	height: 15%;
-	width: 100%;
+	position: relative;
 	background-color: #6D8BAD;
-	position: absolute;
-	
+	top: 95%;
+	width: 50%;
+	margin: auto;
 }
