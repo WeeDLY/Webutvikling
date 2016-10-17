@@ -7,17 +7,19 @@ body {
 	font-size: 16px;
 }
 
-header {
-	float: left;
+header{
+	width: 95%;
+	margin: auto;
+	padding: 0.5em;
 }
 
 nav {
+	display: block;
 	position: absolute;
-	width: 100%;
-	margin-top: 0.9em;
+	width: 95%;
 	margin-bottom: 0.9em;
+	margin-top: 0.9em;
 	background: #6D8BAD;
-  padding: 1em;
 	text-align: center;
 }
 
@@ -54,9 +56,9 @@ main {
 
 main section {
 	background-color: #8aaaaa;
-	display: flex;
 	width: 85%;
 	height: 90%;
+	display: flex;
 	margin: auto;
 	column-count: 2;
 	flex-direction: column;
