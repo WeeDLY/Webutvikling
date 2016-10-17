@@ -39,17 +39,12 @@ nav ul li a{
 	color: black;
 }
 
-.phoneMenu {
-  display: none;
-}
-
 main {
-	clear: both;
-	position: absolute;
 	left: 50%;
+	position: absolute;
 	top: 62%;
 	transform: translate(-50%, -50%);
-	width: 85%;
+	width: 95%;
 	height: 85%;
 	float: left;
 }
@@ -71,25 +66,34 @@ main section article {
 	margin-bottom: 0.5em;
 }
 
-#right {
-
+.adPhone{
+	display: none;
+}
+.phoneMenu {
+  display: none;
 }
 
-#left {
-
-}
-
-.adPhone {
-	height: 5%;
+#adLeft {
+	position: absolute;;
+	float:left;
 	background-color: red;
-	margin-bottom: 0.5em;
+	width: 5%;
+	padding: 0.5em;
 }
+
+#adRight {
+	position: relative;
+	float: right;
+	background-color: red;
+	width: 5%;
+	top: -90%;
+}
+
 
 footer {
-	position: absolute;
-	clear: both;
+	position: relative;
 	background-color: #6D8BAD;
-	left: 50%;
 	top: 95%;
-	transform: translate(-50%, -50%);
+	width: 50%;
+	margin: auto;
 }
