@@ -42,10 +42,10 @@ nav ul li a{
 main {
 	left: 50%;
 	position: absolute;
-	top: 62%;
+	top: 58%;
 	transform: translate(-50%, -50%);
 	width: 95%;
-	height: 85%;
+	height: 75%;
 	float: left;
 }
 
@@ -53,10 +53,7 @@ main section {
 	background-color: #8aaaaa;
 	width: 85%;
 	height: 90%;
-	display: flex;
 	margin: auto;
-	column-count: 2;
-	flex-direction: column;
 }
 
 main section article {
