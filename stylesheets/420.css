@@ -17,6 +17,8 @@ header {
 	width: 85%;
 	max-width: 85%;
 	float: left;
+	font-size: 1.25em;
+	font-style: bold;
 }
 
 nav {
