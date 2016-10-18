@@ -87,18 +87,7 @@ main section article section {
 #adRight {
 	position: relative;
 	float: right;
-	top: -90%;
-}
-
-#adLeft a picture img {
-	width: 100%;
-	height: 100%;
-}
-
-#adRight a picture img {
-	width: 100%;
-	height: 100%;
-
+	top: -100%;
 }
 
 picture, source, img {
