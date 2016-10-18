@@ -73,7 +73,6 @@ main section article {
 #adLeft, #adRight {
 	position: absolute;
 	float:left;
-	background-color: red;
 	width: 5%;
 	padding: 0.5em;
 	height: 90%;
@@ -82,6 +81,16 @@ main section article {
 	position: relative;
 	float: right;
 	top: -90%;
+}
+
+#adLeft a picture img {
+	width: 100%;
+	height: 100%;
+}
+
+#adRight a picture img {
+	width: 100%;
+	height: 100%;
 }
 
 footer {
