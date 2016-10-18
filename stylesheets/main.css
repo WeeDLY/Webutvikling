@@ -7,6 +7,16 @@ body {
 	font-size: 16px;
 }
 
+h1 {
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+}
+
+p {
+
+}
+
 header{
 	width: 95%;
 	margin: auto;
@@ -87,7 +97,7 @@ main section article section {
 #adRight {
 	position: relative;
 	float: right;
-	top: -100%;
+	top: -101%;
 }
 
 picture, source, img {

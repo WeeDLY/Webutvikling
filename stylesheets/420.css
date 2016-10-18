@@ -51,10 +51,6 @@ nav ul li a {
 	display: inline-block;
 }
 
-#btnBurger: active .menu {
-	display: block;
-}
-
 .menu a {
 	display: none;
 }
