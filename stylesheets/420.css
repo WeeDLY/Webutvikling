@@ -1,62 +1,90 @@
+
 body {
 	height: 100%;
 	width: 100%;
-	background-color: #8aaaaa;
-	font-size: 48px;
+	margin: auto;
+	background-color: #c4d4d4;
+	background-repeat: no-repeat;
+	position: absolute;
+	font-size: 32px;
 	font-weight: bold;
 }
 
 header {
 	width: 85%;
-	padding: 0.5em;
+	max-width: 85%;
+	float: left;
 }
 
 nav {
 	margin: auto;
-	display: block;
-	position: absolute;
-	width: 85%;
 	margin-bottom: 0.9em;
-	margin-top: 0.9em;
+	position: absolute;
+	width: 93.5%;
 	background: #6D8BAD;
+	padding: 1em;
 	text-align: center;
 }
 
 nav ul {
-    margin: auto;
-    padding: 0.6.25em;
-    list-style: none;
+	margin: auto;
+	padding: 0.625em;
+	list-style: none;
+	margin-left: -50px;
 }
 
 nav ul li {
 	display: inline-block;
+	padding: 0% 1%;
 }
 
-.menu {
+nav ul li a {
+	text-decoration: none;
+	font-size: 1.25em;
+	color: black;
+}
+
+.phoneMenu {
+	display: inline-block;
+}
+
+.menu a {
 	display: none;
 }
 
 main {
-	margin: auto;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
 	width: 85%;
-	height: auto;
-	height: 100%;
-	min-height: 100%;
+	height: 85%;
 	float: left;
-	margin-top: 15%;
-	margin-bottom: 15%;
+	margin-top: 10%;
 }
 
 main section {
 	background-color: #8aaaaa;
-	margin-top: 2em;
-	height: auto !important;
+	margin-bottom: 0.5em;
 }
 
 main section article {
 	background-color: #f2f2f2;
 	padding: 0.3em;
-	height: auto !important;
+	height: 8em;
+	margin-bottom: 0.5em;
+}
+
+#adRight {
+	display: none;
+}
+
+#adLeft {
+	display: none;
+}
+
+.adPhone {
+	height: 5em;
 	margin-bottom: 0.5em;
 }
 
@@ -67,21 +95,12 @@ picture, img {
 	min-width: 100%;
 }
 
-#adRight {
-	display: none;
-}
-
-.adPhone {
-	height: 6.25em;
-	width: 100%;
-	background-color: red;
-	margin-bottom: 0.5em;
-}
-
 footer {
+	asaaasad:asas;
+	position: relative;
 	background-color: #6D8BAD;
-	margin-top: 15%;
+	top: 95%;
 	width: 100%;
-	text-align: center;
-	display: inline-block;
+	margin: auto;
+	margin-top: 20%;
 }
