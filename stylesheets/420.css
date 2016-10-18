@@ -89,10 +89,6 @@ main section article section {
 	overflow: hidden;
 }
 
-main section article section header {
-	
-}
-
 #adRight {
 	display: none;
 }
@@ -120,5 +116,5 @@ footer {
 	width: 100%;
 	margin: auto;
 	margin-top: 20%;
-	text-align: center;
 }
+
