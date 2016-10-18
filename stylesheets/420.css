@@ -55,7 +55,7 @@ nav ul li ul {
 	position: absolute;
 	display: none;
 }
-nav ul li:hover .menu a {
+nav ul li:active .menu a {
 	display: block;
 	width: auto;
 	height: auto;
