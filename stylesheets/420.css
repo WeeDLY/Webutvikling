@@ -8,11 +8,11 @@ body {
 
 header {
 	width: 85%;
-	margin: auto;
 	padding: 0.5em;
 }
 
 nav {
+	margin: auto;
 	display: block;
 	position: absolute;
 	width: 85%;
