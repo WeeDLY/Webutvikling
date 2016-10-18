@@ -44,6 +44,7 @@ main {
 	min-height: 100%;
 	float: left;
 	margin-top: 15%;
+	margin-bottom: 15%;
 }
 
 main section {
@@ -79,7 +80,7 @@ picture, img {
 
 footer {
 	background-color: #6D8BAD;
-	margin-top: 50%;
+	margin-top: 15%;
 	width: 100%;
 	text-align: center;
 	display: inline-block;
