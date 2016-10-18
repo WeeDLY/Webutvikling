@@ -72,7 +72,7 @@ main section article {
 	background-color: #f2f2f2;
 	padding: 0.3em;
 	height: 8em;
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 }
 
 #adRight {
@@ -84,8 +84,7 @@ main section article {
 }
 
 .adPhone {
-	height: 5em;
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 }
 
 picture, img {
