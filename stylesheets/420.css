@@ -43,17 +43,19 @@ main {
 	height: 100%;
 	min-height: 100%;
 	float: left;
+	margin-top: 15%;
 }
 
 main section {
 	background-color: #8aaaaa;
 	margin-top: 2em;
+	height: auto !important;
 }
 
 main section article {
 	background-color: #f2f2f2;
 	padding: 0.3em;
-	height: 6.25em;
+	height: auto !important; 
 	margin-bottom: 0.5em;
 }
 
