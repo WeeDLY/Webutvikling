@@ -51,9 +51,26 @@ nav ul li a {
 	display: inline-block;
 }
 
+nav ul li ul {
+	position: absolute;
+	display: none;
+}
+nav ul li:hover .menu a {
+	display: block;
+	width: auto;
+	height: auto;
+}
+
+nav ul li ul {
+	display: block;
+	height: auto;
+	width: auto;
+}
+
 .menu a {
 	display: none;
 }
+
 
 main {
 	position: absolute;
@@ -65,6 +82,7 @@ main {
 	float: left;
 	margin-top: 10%;
 }
+
 
 main section {
 	background-color: #8aaaaa;
