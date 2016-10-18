@@ -46,21 +46,28 @@ main {
 	transform: translate(-50%, -50%);
 	width: 95%;
 	height: 75%;
-	float: left;
 }
 
 main section {
-	background-color: #8aaaaa;
 	width: 85%;
-	height: 90%;
-	margin: auto;
+	left: 7%;
+	position: relative;
+	height: 100%;
+	background-color: #8aaaaa;
 }
 
 main section article {
 	background-color: #f2f2f2;
+	height: auto !important;
 	padding: 0.3em;
-	height: 6.25em;
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
+}
+
+main section article section {
+	background-color: #f2f2f2;
+	height: auto !important;
+	padding-bottom: 1em;
+	overflow: hidden;
 }
 
 .adPhone{
