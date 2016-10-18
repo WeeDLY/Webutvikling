@@ -13,10 +13,6 @@ h1 {
 	padding: 5px;
 }
 
-p {
-
-}
-
 header{
 	width: 95%;
 	margin: auto;
@@ -50,49 +46,46 @@ nav ul li a{
 }
 
 main {
-	left: 50%;
 	position: absolute;
+	left: 50%;
 	top: 58%;
-	transform: translate(-50%, -50%);
 	width: 95%;
 	height: 75%;
+	transform: translate(-50%, -50%);
 }
 
 main section {
-	width: 85%;
-	margin: auto;
 	position: relative;
+	width: 85%;
 	height: 100%;
+	margin: auto;
 	background-color: #8aaaaa;
 }
 
 main section article {
-	background-color: #f2f2f2;
 	height: auto !important;
 	padding: 0.3em;
 	margin-bottom: 1em;
+	background-color: #f2f2f2;
 }
 
 main section article section {
-	background-color: #f2f2f2;
 	height: auto !important;
-	padding-bottom: 1em;
 	overflow: hidden;
+	padding-bottom: 1em;
+	background-color: #f2f2f2;
 }
 
-.adPhone{
+.adPhone .phoneMenu{
 	display: none;
-}
-.phoneMenu {
-  display: none;
 }
 
 #adLeft, #adRight {
 	position: absolute;
 	float:left;
 	width: 5%;
-	padding: 0.5em;
 	height: 90%;
+	padding: 0.5em;
 }
 #adRight {
 	position: relative;
