@@ -7,7 +7,10 @@ body {
 	background-repeat: no-repeat;
 	position: absolute;
 	font-size: 32px;
-	font-weight: bold;
+}
+
+p{
+	font-size: 1.25em;
 }
 
 header {
@@ -46,6 +49,10 @@ nav ul li a {
 
 .phoneMenu {
 	display: inline-block;
+}
+
+#btnBurger: active .menu {
+	display: block;
 }
 
 .menu a {
@@ -95,7 +102,6 @@ picture, img {
 }
 
 footer {
-	asaaasad:asas;
 	position: relative;
 	background-color: #6D8BAD;
 	top: 95%;
