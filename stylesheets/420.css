@@ -126,12 +126,3 @@ picture, source, img {
 .adPhone {
 	margin-bottom: 1em;
 }
-
-footer {
-	position: relative;
-	background-color: #6D8BAD;
-	top: 95%;
-	width: 100%;
-	margin: auto;
-	margin-top: 20%;
-}
