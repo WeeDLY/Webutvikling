@@ -105,3 +105,10 @@ picture, source, img {
 	width: 100%;
 	min-width: 100%;
 }
+
+#rss {
+	width: 32px;
+	min-height: 32px;
+	height: 32px;
+	min-width: 32px;
+}
