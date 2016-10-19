@@ -64,6 +64,16 @@ main section article {
 	margin-bottom: 0.5em;
 }
 
+.articleSmall {
+	text-align: center;
+	width: auto;
+}
+
+.articleSmall section picture img {
+	width: 30%;
+	height: 40%;
+}
+
 #adRight {
 	display: none;
 }
