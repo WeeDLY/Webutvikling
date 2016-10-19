@@ -57,7 +57,8 @@ nav ul li ul {
 	position: absolute;
 	display: none;
 }
-nav ul li:active .menu a {
+
+nav ul li:focus .menu a {
 	display: block;
 	width: auto;
 	height: auto;
@@ -72,7 +73,6 @@ nav ul li ul {
 .menu a {
 	display: none;
 }
-
 
 main {
 	position: absolute;
