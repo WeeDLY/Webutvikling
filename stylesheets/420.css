@@ -118,3 +118,10 @@ picture, source, img {
 .adPhone {
 	margin-bottom: 1em;
 }
+
+#rss {
+	min-width: 32px;
+	min-height: 32px;
+	height: 32px;
+	width: 32px;
+}
