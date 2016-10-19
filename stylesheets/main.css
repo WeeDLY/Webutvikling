@@ -105,12 +105,3 @@ picture, source, img {
 	width: 100%;
 	min-width: 100%;
 }
-
-footer {
-	position: relative;
-	background-color: #6D8BAD;
-	top: 95%;
-	width: 50%;
-	margin: auto;
-	text-align: center
-}
