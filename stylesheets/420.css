@@ -58,7 +58,7 @@ nav ul li ul {
 	display: none;
 }
 
-nav ul li:focus .menu a {
+nav ul li:hover .menu a {
 	display: block;
 	width: auto;
 	height: auto;
