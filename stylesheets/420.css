@@ -11,6 +11,7 @@ body {
 
 p{
 	font-size: 0.75em;
+	margin-bottom: 1em;
 }
 
 header {
@@ -81,7 +82,7 @@ main {
 
 main section {
 	background-color: #8aaaaa;
-	height: 100%;
+	height: auto;
 }
 
 main section article {
