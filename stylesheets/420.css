@@ -63,6 +63,7 @@ nav ul li:hover .menu a {
 	display: block;
 	width: auto;
 	height: auto;
+	background: #8aaaaa;
 }
 
 nav ul li ul {
