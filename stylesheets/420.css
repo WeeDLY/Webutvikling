@@ -49,11 +49,6 @@ nav ul li a {
 	color: black;
 }
 
-.phoneMenu {
-	display: inline-block;
-	float: left;
-}
-
 nav ul li ul {
 	position: absolute;
 	display: none;
@@ -70,10 +65,6 @@ nav ul li ul {
 	display: block;
 	height: auto;
 	width: auto;
-}
-
-.menu a {
-	display: none;
 }
 
 main {
