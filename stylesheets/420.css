@@ -18,7 +18,7 @@ header {
 	max-width: 85%;
 	float: left;
 	font-size: 1.25em;
-	font-style: bold;
+	font-weight: bold;
 }
 
 nav {
@@ -51,6 +51,7 @@ nav ul li a {
 
 .phoneMenu {
 	display: inline-block;
+	float: left;
 }
 
 nav ul li ul {
@@ -123,7 +124,6 @@ picture, source, img {
 
 .adPhone {
 	margin-bottom: 1em;
-	float: left;
 }
 
 footer {
