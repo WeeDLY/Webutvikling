@@ -123,6 +123,7 @@ picture, source, img {
 
 .adPhone {
 	margin-bottom: 1em;
+	float: left;
 }
 
 footer {
